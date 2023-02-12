@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Kai', sans-serif;
+   
+}
+body{
+    background-image: url(../imagenes_katia/fondo6.jpg);
+    background-size : contain;
+}
+
+#cabecera{
+    height: 150px;
+    /*background-repeat: no-repeat;*/
+}
+#titulo{
+    display: left;
+    margin-left: 70px;
+    margin-bottom: 45px;
+}
+
+#logo{
+    margin-top: 20px;
+}
+
+#encabezado {
+    height: 205px;
+    background-image: url(../imagenes_katia/prueba3.jpg);
+}
+#menu{
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    display: inline;
+}
+
+
+ul li a{
+   
+    color:black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+}
+
+ul li a:hover{
+    color: white;
+   /* font-size: 25px;*/
+}
+
+/*CUERPO */
+#cuerpo{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 1085px;
+    height: 3500px;
+    background-color: #c8b59d;
+    border: 1px solid rgba(43, 156, 156, 0.438);
+   /* background-color: rgba(43, 156, 156, 0.438);*/
+}
+
+/*IMAGEN CUERPO */
+
+#imagenInicio {
+    position: relative;
+    display: inline-block;
+}
+#letras {
+    position: absolute;
+    bottom: 105px;
+    right: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    /*color: steelblue;*/
+}
+
+#cuerpo p{
+    width: 980px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#cuerpo hr{
+    width: 90%;
+    margin-left: 40px;
+}
+
+/*IMAGENES CUERPO*/
+/*IMAGENES IZQUIERDA*/
+#tortuga, #payaso, #estrella, #medusa, #barracuda{
+    height: 200px;
+    width: 800px;
+    margin-top: 40px;
+    margin-left:143px;
+    
+   /* border: 1px solid #a88c5900;*/
+   border: 1px solid black;
+}
+#tortuga h3, #payaso h3, #estrella h3, #medusa h3, #barracuda h3{
+    margin-top:80px;
+    font-size: 30px; 
+}
+#tortuga img, #payaso img, #estrella img, #medusa img, #barracuda img{ 
+    float: left;
+}
+
+/*TORTUGA*/
+#tortuga h3{
+    margin-left: 450px;
+}
+/*ESTRELLA*/
+#estrella h3{
+    margin-left: 400px;
+}
+/*MEDUSA*/
+#medusa h3{
+    margin-left: 450px;
+}
+/*BARRACUDA*/
+#barracuda h3{
+margin-left:440px;
+}
+/*PAYASO*/
+#payaso h3{
+    margin-left:430px;
+}
+
+/*IMAGENES DERECHA*/
+
+#caballito, #mariposa, #pulpo, #delfin, #raya{
+    height: 200px;
+    width: 800px;
+    margin-left:143px;
+    margin-top: 40px;
+    border: 1px solid black;
+  
+}
+#caballito h3, #mariposa h3, #pulpo h3, #delfin h3, #raya h3{
+    margin-top:80px;
+    font-size: 30px; 
+    float: left;
+}
+#caballito img, #mariposa img, #pulpo img, #delfin img, #raya img{
+    float: right;
+}
+/*CABALLITO*/
+#caballito h3{
+    margin-left: 80px;
+}
+/*PULPO*/
+#pulpo h3{
+    margin-left: 80px;
+}
+
+/*PEZ MARIPOSA*/
+#mariposa h3{
+    margin-left: 110px;
+}
+/*DELFIN*/
+#delfin h3{
+    margin-left: 180px;
+}
+
+/*RAYA*/
+#raya h3{
+    margin-left: 190px;
+}
+
+
+#pie{
+    width:2000;
+    height: 120px;
+    background-image: url(../imagenes_katia/prueba4.jpg);
+
+}
+#email, #movil, #iconos{
+    width: 250px;
+    height: 20px;
+    margin-left: 600px;
+   
+}
+#movil{
+    margin-top: 10px;
+}
+#iconos{
+    margin-top: 20px;
+    margin-left:630px;
+}
+#email img, #movil img{
+    float: left;
+}
+#email p, #movil p{
+    width: 200px;
+    float: left;
+    
+}

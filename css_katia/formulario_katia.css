@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Kai', sans-serif;
+    font-size: 18px;
+   
+}
+body{
+    background-image: url(../imagenes_katia/fondo6.jpg);
+    background-size : contain;
+}
+
+#cabecera{
+    width:2000;
+    height: 150px;
+    /*background-repeat: no-repeat;*/
+}
+#titulo{
+    display: left;
+    margin-left: 70px;
+    margin-bottom: 45px;
+}
+
+#logo{
+    margin-top: 20px;
+}
+
+#encabezado {
+    height: 205px;
+    background-image: url(../imagenes_katia/prueba3.jpg);
+}
+#menu{
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    display: inline;
+}
+
+
+ul li a{
+   
+    color:black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+}
+
+ul li a:hover{
+    color: white;
+   /* font-size: 25px;*/
+}
+
+/*CUERPO */
+#cuerpo{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 1085px;
+    height: 1500px;
+   background-color: #c8b59d;
+    border: 1px solid rgba(43, 156, 156, 0.438);
+   /* background-color: rgba(43, 156, 156, 0.438);*/
+}
+
+h2{ 
+    margin-top: 40px;
+    text-align: center;
+}
+
+#datos{
+    width: 925px;
+    margin-left: 50px;
+    border-color: black;
+    padding: 20px;
+}
+
+#anyo {
+    width: 3.5em;
+}
+#provincia{
+    width:10em;
+}
+#dia{
+    width: 2.5em;
+}  
+   #checkbox{
+    width: 250px;
+    
+   }
+   ::placeholder{
+    color: black;
+   }
+   .placeholder:focus::placeholder{
+    color: transparent;
+   }
+   
+   #botones2{
+    width: 500px;
+    margin-left: 120px;
+   }
+   input:required{
+    outline: 1px solid aqua;
+}
+    #correo:invalid{
+    background-color: red;
+}
+
+   #pie{
+    width:2000;
+    height: 120px;
+    background-image: url(../imagenes_katia/prueba4.jpg);
+
+}
+#email, #movil, #iconos{
+    width: 250px;
+    height: 20px;
+    margin-left: 600px;
+   
+}
+#movil{
+    margin-top: 10px;
+}
+#iconos{
+    margin-top: 20px;
+    margin-left:630px;
+}
+#email img, #movil img{
+    float: left;
+}
+#email p, #movil p{
+    width: 200px;
+    float: left;
+    
+}

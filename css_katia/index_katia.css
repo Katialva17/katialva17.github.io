@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Kai', sans-serif;
+   
+}
+
+body{
+    background-image: url(../imagenes_katia/fondo6.jpg);
+    background-size : contain;
+}
+#cabecera{
+    width:2000px;
+    height: 150px;
+}
+#titulo{
+    display: left;
+    margin-left: 70px;
+    margin-bottom: 45px;
+}
+
+#logo{
+    margin-top: 20px;
+}
+
+#encabezado {
+    height: 205px;
+    background-image: url(../imagenes_katia/prueba3.jpg);
+}
+#menu{
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    display: inline;
+}
+
+ul li a{
+   
+    color:black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+}
+
+ul li a:hover{
+    color: white;
+   /* font-size: 25px;*/
+}
+
+#cuerpo{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 1085px;
+    height: 1600px;
+    background-color: #c8b59d;
+  /* background-color: #e0ca9c;*/
+    border: 1px solid rgba(43, 156, 156, 0.438);
+   /* background-color: rgba(43, 156, 156, 0.438);*/
+}
+#cuerpo a{
+    color:black;
+}
+#fotos{
+    display: inline-block;
+}
+#fotos img{
+    
+    float: left;
+
+}
+/*NOTICIAS*/
+
+#noticias{
+    width: 250px;
+    height: 750px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+
+    
+}
+#noticias h2{
+    padding: 10px;
+    background-color: teal;
+}
+#noticia1, #noticia2, #noticia3, #noticia4 {
+    width: 225px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid teal;
+    border-radius: 20px;
+}
+
+#noticias a{
+    color:teal;
+}
+#noticias h4{
+    margin-top: 20px;
+}
+#noticia1{
+    height: 170px;
+}
+#noticia2{
+    height: 170px;
+}
+#noticia3{
+    height: 150px;
+}
+#noticia4{
+    height: 150px;
+}
+
+/*TIEMPO*/
+#tiempo{
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin-top: 40px;
+   
+}
+
+#cuerpo p{
+    float: left;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+#cuerpo video{
+    margin-top: 40px;
+    margin-left: 20px; 
+}
+
+
+#pie{
+    width:2000;
+    height: 120px;
+    background-image: url(../imagenes_katia/prueba4.jpg);
+
+}
+#email, #movil, #iconos{
+    width: 250px;
+    height: 20px;
+    margin-left: 600px;
+   
+}
+#movil{
+    margin-top: 10px;
+}
+#iconos{
+    margin-top: 20px;
+    margin-left:630px;
+}
+#email img, #movil img{
+    float: left;
+}
+#email p, #movil p{
+    width: 200px;
+    float: left;
+    
+}
+
+

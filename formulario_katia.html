@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Regístrate</title>
+    <link rel="stylesheet" href="./css_katia/formulario_katia.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="encabezado">
+            <div id="cabecera">
+            
+                <img id="logo" src="./imagenes_katia/logo2.PNG" width="300px" height="170px">
+                <img id="titulo" src="./imagenes_katia/titulo.png" width="750px" height="100px">
+        
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="./index_katia.html">INICIO</a></li>
+                    <li><a href="./actividades_katia.html">ACTIVIDADES</a></li>
+                    <li><a href="./ubicaciones_katia.html">UBICACIONES</a></li>
+                    <li><a href="./fauna_katia.html">FAUNA Y FLORA</a></li>
+                    <li><a href="./noticias_katia.html">NOTICIAS</a></li>
+                    <li><a href="./formulario_katia.html">REGISTRATE</a></li>
+            </div>
+        </div>
+        <div id="cuerpo">
+            <form name="formulario" method="post" action="./formulario3.php">
+            <h2>Regístrate:</h2>
+            <fieldset id="datos">
+                <legend>Datos personales</legend>
+                <br>
+            Nombre:
+        <input type="text" name="nombre" size="20" maxlength="15" required>
+        <br><br>
+        Apellidos:
+        <input type="text" name="apellidos" size="35" maxlength="30" required>
+        <br><br>
+        Correo electrónico:
+        <input id="correo" type="email" name="correo" size="40" placeholder="@">
+        <br><br>
+        Teléfono:
+        <input type="text" name="telefono" size="20" maxlength="9" required>
+        <br><br>
+        Dirección:
+        <input type="text" name="direccion" size="100">
+        <br><br>
+        Población:
+        <input type="text" name="poblacion" size="15">
+        <br><br>
+        Provincia:
+        <input type="text" name="provincia" size="15">
+        <br><br>
+        Fecha de nacimiento
+        <br>
+        <input type="number" name="dia" min="1" max="31" id="dia">
+        de
+        <select name="mes">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+        <br><br>
+            ¿Cómo nos conociste?
+            <br>
+            <input type="checkbox" name="amigo"> A través de un amigo.
+            <br>
+            <input type="checkbox" name="buscador"> A través de un buscador.
+            <br>
+            <input type="checkbox" name="red"> Navegando por la red.
+            <br>
+            <input type="checkbox" name="otros"> Otros.
+        <br><br>
+        
+        ¿Qué actividades estás buscando?
+        <br><br>
+        <textarea name="texto" cols="50" rows="5" spellcheck="true"  placeholder="Escriba aquí su opinión..." class="placeholder"></textarea>
+        <br><br><br>
+        Tiene alguna sugerencia...
+        <br><br>
+        <textarea name="texto" cols="50" rows="5" spellcheck="true"  placeholder="Escriba aquí sus sugerencias..." class="placeholder"></textarea>   
+        <br><br>
+        ¿Cuál es el motivo de tu regristro?
+        <br><br>
+        <select name="informacion" multiple size="4">
+            <option value="1">Quieres apuntarte a una de nuestras actividades.</option>
+            <option value="2">Quieres información acerca de alguna de nuestras actividades.</option>
+            <option value="3">Quieres dejar una evaluación.</option>
+            <option value="4">Otro.</option>
+        </select>
+        <br><br><br>
+        <input type="checkbox" name="hijo">
+            La actividad es para un menor de edad.
+            <br><br>
+        </fieldset>
+        <br>
+        <div id="botones2">
+            <input type="submit" value="Enviar formulario" id="enviar">
+            &nbsp;&nbsp;
+            <input type="reset" value="Borrar formulario">
+            &nbsp;&nbsp;
+        </div>
+    </form>
+                
+            
+        </div>
+
+
+        <div id="pie">
+            <br>
+            <div id="email">
+                <img src="./imagenes_katia/iconos/mensaje.png">
+                <p>: summer-gt@gmail.com</p>
+            </div>
+            <div id="movil">
+                <img src="./imagenes_katia/iconos/movil.png">
+                <p>: 628349597</p>
+            </div>
+            <div id="iconos">
+                <a href="https://www.instagram.com/solosurfoficial_/?hl=es">
+                    <img src="./imagenes_katia/iconos/instagram.png">
+                </a>
+                <a href="https://twitter.com/rcncalpe?lang=es">
+                    <img src="./imagenes_katia/iconos/twitter.png">
+                </a>
+                <a href="https://es-es.facebook.com/Real.Club.Nautico.Calpe/">
+                    <img src="./imagenes_katia/iconos/facebook.png">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
